@@ -501,7 +501,7 @@ source /opt/PetaLinux/petalinux-v2015.2.1-final/settings.sh
 
   ```
   mkdir /mnt/nfs
-  mount -o port=2049,nolock,proto=tcp -t nfs 192.168.1.1:<directory> /mnt/nfs
+  mount -o port=2049,nolock,proto=tcp -t nfs 192.168.133.6:<directory> /mnt/nfs
   cd /mnt/nfs/<project>
   # Can now execute "myapp" in build/linux/rootfs/apps/myapp/myapp
   ```
